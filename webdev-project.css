@@ -1,11 +1,15 @@
 .aboutme-container,
 .resume-container,
-.project-container {
+.project-container,
+.contactme-container {
   padding: 10mm;
   background-color: var(--lightpink);
 }
 .resume-container .content h2 {
   color: var(--darkolive);
+}
+.resume-container .list-group-item {
+  background-color: var(--grey4);
 }
 .aboutme-container {
   display: block;
@@ -30,7 +34,8 @@
 .aboutme-container .intro,
 .aboutme-container .content,
 .resume-container .resume,
-.resume-container .list-group-item {
+.resume-container .list-group-item,
+.project-container .myname {
   text-align: left;
   color: var(--purple);
 }
@@ -147,4 +152,12 @@
   100% {
     opacity: 0;
   }
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
