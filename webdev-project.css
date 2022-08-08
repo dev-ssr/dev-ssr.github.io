@@ -1,23 +1,38 @@
-.aboutme-container {
-  text-align: center;
+.aboutme-container,
+.resume-container,
+.project-container {
   padding: 10mm;
   background-color: var(--lightpink);
 }
-.aboutme-container .content {
-  font-weight: bold;
-  font-size: larger;
+.resume-container .content h2 {
   color: var(--darkolive);
+}
+.aboutme-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+.aboutme-container .content {
+  font-size: larger;
+  font-weight: bold;
 }
 
 .aboutme-container #swe_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   bottom: 0;
   left: 0;
-  padding: 2mm;
+  padding: 5mm;
   border-radius: 20mm;
 }
-.aboutme-container .intro {
+.aboutme-container .intro,
+.aboutme-container .content,
+.resume-container .resume,
+.resume-container .list-group-item {
   text-align: left;
-  color: var(--darkolive);
+  color: var(--purple);
 }
 .aboutme-container .intro .pop-effect {
   display: inline;
