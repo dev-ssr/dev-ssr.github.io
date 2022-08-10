@@ -1,17 +1,15 @@
 .resume-container,
 .aboutme-container,
 .project-container,
-.contactme-container {
+.contactme-container,
+.pcontainer {
   padding: 10mm;
   background-color: var(--lightpink);
 }
 .resume-container .content h2 {
   color: var(--darkolive);
 }
-.resume-container,
-.pcontainer {
-  background-color: var(--gray4);
-}
+
 .aboutme-container {
   display: block;
   margin-left: auto;
